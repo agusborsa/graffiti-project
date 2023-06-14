@@ -1,15 +1,72 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>Dibujitos</title>
+
+  <title>draw app</title>
+  
+  <meta name="description" content="..." />
+  
+  <meta charset="utf-8">
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  
+  <meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+
+  <link rel="stylesheet" href="css/style.css">
+  
+  <script src="js/osc-browser.js"></script>
+
 </head>
+
+<div id="time-container">
+
+  <svg class="svg-ellipse" width="100" height="100" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+    <circle class="tester" cx="100" cy="100" r="50" stroke="#69F6FF" stroke-width="20" />
+
+  </svg>
+
+  <h3 id="counter" class="ellipse-percent-label">-</h3>
+
+</div>
+<div id="outer-circle"></div>
+
+
 <body>
-    
+ 
+
+  <script src="js/libraries/gsap/gsap.min.js"></script>
+
+  <script src="js/libraries/gsap/DrawSVGPlugin.min.js"></script>
+
+  <script src="js/libraries/gsap/gsap.min.js"></script>
+  
+  <script src="js/libraries/p5/p5.js"></script>
+  
+  <script src="js/libraries/stats/stats.min.js"></script>
+
+  <script src="js/libraries/dat.gui/dat.gui.min.js"></script>
+
+  <script src="js/visualizations/modules/MaskTrail.js"></script>
+
+  <script src="js/visualizations/modules/PointsTrail.js"></script>
+
+  <script src="js/visualizations/modules/PointsAndLines.js"></script>
+
+  <script src="js/visualizations/modules/SimpleDraw.js"></script>
+
+  <script src="js/visualizations/modules/TintDraw.js"></script>
+
+  <script src="js/visualizations/modules/LettersDraw.js"></script>
+  
+  <script src="js/visualizations/modules/Point.js"></script>
+
+  <script src="js/visualizations/Visualizations.js"></script>
+  
+  <script src="js/main.js"></script>
+
+
+
 </body>
-<script src="assets/libraries/p5.min.js"></script>
-<script src="script.js"></script>
+
 </html>
