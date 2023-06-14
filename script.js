@@ -3,7 +3,7 @@ function setup() {
     funcIndex = 5;
     
     UI = createGraphics(width, height);
-    TXT = createGraphics(width, height);
+    TXT = createGraphics(width, height); //genera el canvas con una funcion de la librearia que usamos (p5js)
     
     clearButton = txtButtonRect("clear canvas : OFF", width-260, height*0.01, 250, 50);
     resetButton = txtButtonRect("reset property", width-200, height*0.9, 190, 50);
